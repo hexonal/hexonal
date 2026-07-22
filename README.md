@@ -37,7 +37,7 @@
 
 <br/>
 
-### `$ cat stack.yml`
+### `$ hexonal stack`
 
 ```yaml
 languages:  [Go, Rust, C#, C++, Python, Java, Ruby, TypeScript]
@@ -49,7 +49,7 @@ currently:  [AI product infra, secure MCP tooling]
 
 <br/>
 
-### `$ git log --oneline --merged`
+### `$ hexonal contributions --merged`
 
 ```diff
 + fmtlib/fmt#4850      CMake export set generation
@@ -57,7 +57,7 @@ currently:  [AI product infra, secure MCP tooling]
 + microsoft/garnet#1937 PEM certificate support for TLS
 ```
 
-### `$ git log --oneline --open`
+### `$ hexonal contributions --open`
 
 ```diff
 ? microsoft/garnet#1968  BITFIELD signed 64-bit overflow detection
@@ -70,7 +70,7 @@ currently:  [AI product infra, secure MCP tooling]
 
 <br/>
 
-### `$ ./activity --graph`
+### `$ hexonal activity --graph`
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hexonal&theme=github-dark&hide_border=true&bg_color=00000000&color=39FF14&line=39FF14&point=39FF14&area=true&area_color=39FF14" width="100%"/>
@@ -78,7 +78,7 @@ currently:  [AI product infra, secure MCP tooling]
 
 <br/>
 
-### `$ ./contribution-snake.sh`
+### `$ hexonal activity --snake`
 
 <div align="center">
 <picture>
@@ -89,6 +89,8 @@ currently:  [AI product infra, secure MCP tooling]
 </div>
 
 <br/>
+
+### `$ hexonal activity --streak`
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=hexonal&theme=dark&hide_border=true&background=00000000&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" />
