@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=1000&color=39FF14&center=true&vCenter=true&width=680&lines=root-causing+bugs+across+storage+engines%2C+CLI+tools%2C+RESP+servers;verify+before+you+trust+a+report+%E2%80%94+then+verify+your+own+fix;fmt+%C2%B7+sinatra+%C2%B7+garnet+%C2%B7+kong+%C2%B7+prometheus" alt="Typing SVG" />
+<samp>root-causing bugs across storage engines, CLI tools &amp; RESP servers — verify before you trust a report, then verify your own fix</samp>
 
 </div>
 
@@ -67,6 +67,14 @@ currently:  [AI product infra, secure MCP tooling]
 ```
 
 <sub>found by reading the source, not just the issue tracker — root cause verified, regression-tested, adversarially reviewed before submitting.</sub>
+
+<br/>
+
+### `$ ./activity --graph`
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hexonal&theme=github-dark&hide_border=true&bg_color=00000000&color=39FF14&line=39FF14&point=39FF14&area=true&area_color=39FF14" width="100%"/>
+</div>
 
 <br/>
 
