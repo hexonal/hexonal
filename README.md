@@ -51,20 +51,24 @@ currently:  [AI product infra, secure MCP tooling]
 
 ### `$ hexonal contributions --merged`
 
+<!-- MERGED:START -->
 ```diff
-+ fmtlib/fmt#4850      CMake export set generation
-+ sinatra/sinatra#2182 commonmarker 2.9 CI breakage
-+ microsoft/garnet#1937 PEM certificate support for TLS
++ fmtlib/fmt#4850        Generate CMake export set regardless of FMT_INSTALL
++ sinatra/sinatra#2182   Fix markdown tests for commonmarker 2.9.0's heading anchor markup
++ microsoft/garnet#1937  Add PEM certificate support for TLS
 ```
+<!-- MERGED:END -->
 
 ### `$ hexonal contributions --open`
 
+<!-- OPEN:START -->
 ```diff
-? microsoft/garnet#1968  BITFIELD signed 64-bit overflow detection
-? microsoft/garnet#1969  GETRANGE crash on empty-string values
-? alecthomas/kong#629    flag/command validation ordering
-? alecthomas/kong#630    nested camelCase config resolution
+? alecthomas/kong#630    Fix JSON resolver not finding camelCase keys nested in embedded structs
+? alecthomas/kong#629    Validate flags/positionals before the commands/nodes that own them
+? microsoft/garnet#1969  Fix GETRANGE DivideByZeroException on empty-string value with negative start
+? microsoft/garnet#1968  Fix BITFIELD signed 64-bit overflow detection for OVERFLOW SAT/FAIL
 ```
+<!-- OPEN:END -->
 
 <sub>found by reading the source, not just the issue tracker — root cause verified, regression-tested, adversarially reviewed before submitting.</sub>
 
