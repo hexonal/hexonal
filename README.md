@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ fmtlib/fmt#4850        Generate CMake export set regardless of FMT_INSTALL
-+ sinatra/sinatra#2182   Fix markdown tests for commonmarker 2.9.0's heading anchor markup
-+ microsoft/garnet#1937  Add PEM certificate support for TLS
++ microsoft/garnet#1946  Fix CI Test Summary silently dropping failed tests on trx filename collision
++ microsoft/garnet#1968  Fix BITFIELD signed 64-bit overflow detection for OVERFLOW SAT/FAIL
++ microsoft/garnet#1969  Fix GETRANGE DivideByZeroException on empty-string value with negative start
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? alecthomas/kong#630    Fix JSON resolver not finding camelCase keys nested in embedded structs
-? alecthomas/kong#629    Validate flags/positionals before the commands/nodes that own them
-? microsoft/garnet#1969  Fix GETRANGE DivideByZeroException on empty-string value with negative start
-? microsoft/garnet#1968  Fix BITFIELD signed 64-bit overflow detection for OVERFLOW SAT/FAIL
+? freeCodeCamp/freeCodeCamp#68836  fix(api): check rate limit before updating pending email
+? pmd/pmd#6884                     [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
+? fmtlib/fmt#4863                  Set matching CC alongside CXX in Linux CI matrix
+? pmd/pmd#6885                     [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
 ```
 <!-- OPEN:END -->
 
