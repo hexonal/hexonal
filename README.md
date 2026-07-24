@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#1946  Fix CI Test Summary silently dropping failed tests on trx filename collision
-+ microsoft/garnet#1968  Fix BITFIELD signed 64-bit overflow detection for OVERFLOW SAT/FAIL
-+ microsoft/garnet#1969  Fix GETRANGE DivideByZeroException on empty-string value with negative start
++ microsoft/garnet#1947            Reject SETRANGE offsets that overflow max record size
++ microsoft/garnet#1971            Fix one-byte out-of-bounds read in BITPOS with explicit end offset
++ freeCodeCamp/freeCodeCamp#68836  fix(api): check rate limit before updating pending email
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? freeCodeCamp/freeCodeCamp#68836  fix(api): check rate limit before updating pending email
-? pmd/pmd#6884                     [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
-? fmtlib/fmt#4863                  Set matching CC alongside CXX in Linux CI matrix
-? pmd/pmd#6885                     [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
+? microsoft/garnet#1945      Fix integer overflow in RESP output buffer growth (HGETALL on large hashes)
+? microsoft/garnet#1949      Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
+? louislam/uptime-kuma#7599  fix: reduce rate-limit log spam when quota is healthy
+? pmd/pmd#6885               [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
 ```
 <!-- OPEN:END -->
 
