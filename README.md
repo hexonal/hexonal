@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ sinatra/sinatra#2182       Fix markdown tests for commonmarker 2.9.0's heading anchor markup
 + louislam/uptime-kuma#7599  fix: reduce rate-limit log spam when quota is healthy
 + microsoft/garnet#1947      Reject SETRANGE offsets that overflow max record size
-+ microsoft/garnet#1971      Fix one-byte out-of-bounds read in BITPOS with explicit end offset
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
+? fmtlib/fmt#4863        Set matching CC alongside CXX in Linux CI matrix
 ? pmd/pmd#6885           [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
 ? microsoft/garnet#1949  Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
 ? pmd/pmd#6884           [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
-? fmtlib/fmt#4863        Set matching CC alongside CXX in Linux CI matrix
 ```
 <!-- OPEN:END -->
 
