@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
+? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
 ? fmtlib/fmt#4863              Set matching CC alongside CXX in Linux CI matrix
 ? pmd/pmd#6885                 [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
 ? pmd/pmd#6884                 [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
-? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
 ```
 <!-- OPEN:END -->
 
