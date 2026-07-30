@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
-? fmtlib/fmt#4863              Set matching CC alongside CXX in Linux CI matrix
-? pmd/pmd#6885                 [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
-? pmd/pmd#6884                 [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
+? pmd/pmd#6885                   [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
+? fmtlib/fmt#4863                Set matching CC alongside CXX in Linux CI matrix
+? microsoft/garnet#1999          [V1] Backport #1949: Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
+? python-poetry/poetry-core#955  fix: correct allows_all containment check for "!=" vs "not in"
 ```
 <!-- OPEN:END -->
 
