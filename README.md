@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#1949      Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
-+ sinatra/sinatra#2182       Fix markdown tests for commonmarker 2.9.0's heading anchor markup
-+ louislam/uptime-kuma#7599  fix: reduce rate-limit log spam when quota is healthy
++ microsoft/garnet#1999  [V1] Backport #1949: Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
++ fmtlib/fmt#4863        Set matching CC alongside CXX in Linux CI matrix
++ microsoft/garnet#1949  Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? pmd/pmd#6885                   [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
-? fmtlib/fmt#4863                Set matching CC alongside CXX in Linux CI matrix
-? microsoft/garnet#1999          [V1] Backport #1949: Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
-? python-poetry/poetry-core#955  fix: correct allows_all containment check for "!=" vs "not in"
+? sinatra/sinatra#2180  Make `Sinatra::TemplateCache` thread-safe
+? atuinsh/atuin#3646    fix(theme): fix low-contrast annotation color in default and autumn themes
+? alecthomas/kong#629   Validate flags/positionals before the commands/nodes that own them
+? pmd/pmd#6884          [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
 ```
 <!-- OPEN:END -->
 
