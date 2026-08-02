@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? sinatra/sinatra#2180  Make `Sinatra::TemplateCache` thread-safe
-? atuinsh/atuin#3646    fix(theme): fix low-contrast annotation color in default and autumn themes
-? alecthomas/kong#629   Validate flags/positionals before the commands/nodes that own them
-? pmd/pmd#6884          [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
+? microsoft/garnet#2008  Fix BITCOUNT ... BIT throwing PlatformNotSupportedException on ARM64
+? sinatra/sinatra#2180   Make `Sinatra::TemplateCache` thread-safe
+? atuinsh/atuin#3646     fix(theme): fix low-contrast annotation color in default and autumn themes
+? alecthomas/kong#629    Validate flags/positionals before the commands/nodes that own them
 ```
 <!-- OPEN:END -->
 
