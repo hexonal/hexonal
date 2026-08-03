@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? microsoft/garnet#2008  Fix BITCOUNT ... BIT throwing PlatformNotSupportedException on ARM64
-? sinatra/sinatra#2180   Make `Sinatra::TemplateCache` thread-safe
-? atuinsh/atuin#3646     fix(theme): fix low-contrast annotation color in default and autumn themes
-? alecthomas/kong#629    Validate flags/positionals before the commands/nodes that own them
+? microsoft/garnet#2009        Fix LREM with count = int.MinValue killing the session
+? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
+? microsoft/garnet#2010        Fix non-positive count on LMPOP and LPOP/RPOP
+? fmtlib/fmt#4878              Format zero as 0x0p+0 in hexfloat
 ```
 <!-- OPEN:END -->
 
