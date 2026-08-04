@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ microsoft/garnet#2008  Fix BITCOUNT ... BIT throwing PlatformNotSupportedException on ARM64
 + microsoft/garnet#1999  [V1] Backport #1949: Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
 + fmtlib/fmt#4863        Set matching CC alongside CXX in Linux CI matrix
-+ microsoft/garnet#1949  Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? microsoft/garnet#2009        Fix LREM with count = int.MinValue killing the session
-? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
-? microsoft/garnet#2010        Fix non-positive count on LMPOP and LPOP/RPOP
-? fmtlib/fmt#4878              Format zero as 0x0p+0 in hexfloat
+? atuinsh/atuin#3646      fix(theme): fix low-contrast annotation color in default and autumn themes
+? microsoft/garnet#2010   Fix non-positive count on LMPOP and LPOP/RPOP
+? microsoft/garnet#2009   Fix LREM with count = int.MinValue killing the session
+? eza-community/eza#1882  Fix strict-mode false positives for unset flags with default values
 ```
 <!-- OPEN:END -->
 
