@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#2008  Fix BITCOUNT ... BIT throwing PlatformNotSupportedException on ARM64
-+ microsoft/garnet#1999  [V1] Backport #1949: Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
-+ fmtlib/fmt#4863        Set matching CC alongside CXX in Linux CI matrix
++ microsoft/garnet#2009  Fix LREM with count = int.MinValue killing the session
++ microsoft/garnet#2010  Fix non-positive count on LMPOP and LPOP/RPOP
++ pmd/pmd#6884           [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
+? shiyu-coder/Kronos#384  feat(webui): preselect the accelerator the machine actually has
+? shiyu-coder/Kronos#383  fix(webui): do not expose the Flask debug console on 0.0.0.0 by default
+? shiyu-coder/Kronos#382  fix: call .eval() on tokenizer and model in KronosPredictor
 ? atuinsh/atuin#3646      fix(theme): fix low-contrast annotation color in default and autumn themes
-? microsoft/garnet#2010   Fix non-positive count on LMPOP and LPOP/RPOP
-? microsoft/garnet#2009   Fix LREM with count = int.MinValue killing the session
-? eza-community/eza#1882  Fix strict-mode false positives for unset flags with default values
 ```
 <!-- OPEN:END -->
 
