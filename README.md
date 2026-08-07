@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? pmd/pmd#6885            [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
-? shiyu-coder/Kronos#384  feat(webui): preselect the accelerator the machine actually has
-? shiyu-coder/Kronos#383  fix(webui): do not expose the Flask debug console on 0.0.0.0 by default
-? shiyu-coder/Kronos#382  fix: call .eval() on tokenizer and model in KronosPredictor
+? microsoft/garnet#2031  Validate numkeys in SINTERCARD, ZINTERSTORE and LMPOP/BLMPOP
+? microsoft/garnet#2030  Fix BLMPOP writing a second reply when force-unblocked via CLIENT UNBLOCK
+? microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
+? microsoft/garnet#2028  Fix ZREMRANGEBYRANK missing reply and unnormalized negative ranks
 ```
 <!-- OPEN:END -->
 
