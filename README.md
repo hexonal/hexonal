@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#2009  Fix LREM with count = int.MinValue killing the session
-+ microsoft/garnet#2010  Fix non-positive count on LMPOP and LPOP/RPOP
-+ pmd/pmd#6884           [java] Fix UnnecessaryImport false positive for array-typed Javadoc {@link} parameters
++ microsoft/garnet#2028  Fix ZREMRANGEBYRANK missing reply and unnormalized negative ranks
++ microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
++ microsoft/garnet#2030  Fix BLMPOP writing a second reply when force-unblocked via CLIENT UNBLOCK
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? microsoft/garnet#2031  Validate numkeys in SINTERCARD, ZINTERSTORE and LMPOP/BLMPOP
-? microsoft/garnet#2030  Fix BLMPOP writing a second reply when force-unblocked via CLIENT UNBLOCK
-? microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
-? microsoft/garnet#2028  Fix ZREMRANGEBYRANK missing reply and unnormalized negative ranks
+? microsoft/garnet#2041  Reject multiple source keys in BITOP NOT
+? microsoft/garnet#2040  Fix ZRANGESTORE aborting the RESP session on invalid range parameters
+? microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
+? microsoft/garnet#2037  Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
 ```
 <!-- OPEN:END -->
 
