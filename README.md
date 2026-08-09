@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
+? microsoft/garnet#2050  Validate argument count in SET-family string commands
 ? microsoft/garnet#2041  Reject multiple source keys in BITOP NOT
 ? microsoft/garnet#2040  Fix ZRANGESTORE aborting the RESP session on invalid range parameters
 ? microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
-? microsoft/garnet#2037  Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
 ```
 <!-- OPEN:END -->
 
