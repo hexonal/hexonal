@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ fmtlib/fmt#4878        Format zero as 0x0p+0 in hexfloat
 + microsoft/garnet#2028  Fix ZREMRANGEBYRANK missing reply and unnormalized negative ranks
 + microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
-+ microsoft/garnet#2030  Fix BLMPOP writing a second reply when force-unblocked via CLIENT UNBLOCK
 ```
 <!-- MERGED:END -->
 
