@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ fmtlib/fmt#4878        Format zero as 0x0p+0 in hexfloat
-+ microsoft/garnet#2028  Fix ZREMRANGEBYRANK missing reply and unnormalized negative ranks
-+ microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
++ microsoft/garnet#2036  Fix out-of-bounds read in SCAN/HSCAN/SSCAN/ZSCAN when MATCH, COUNT or TYPE is the last token
++ microsoft/garnet#2037  Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
++ microsoft/garnet#2041  Reject multiple source keys in BITOP NOT
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? microsoft/garnet#2036  Fix out-of-bounds read in SCAN/HSCAN/SSCAN/ZSCAN when MATCH, COUNT or TYPE is the last token
-? microsoft/garnet#2037  Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
 ? microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
 ? microsoft/garnet#2040  Fix ZRANGESTORE aborting the RESP session on invalid range parameters
+? microsoft/garnet#2050  Validate argument count in SET-family string commands
+? pmd/pmd#6885           [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
 ```
 <!-- OPEN:END -->
 
