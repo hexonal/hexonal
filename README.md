@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#2036  Fix out-of-bounds read in SCAN/HSCAN/SSCAN/ZSCAN when MATCH, COUNT or TYPE is the last token
-+ microsoft/garnet#2037  Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
-+ microsoft/garnet#2041  Reject multiple source keys in BITOP NOT
++ python-poetry/poetry-core#955  fix: correct allows_all containment check for "!=" vs "not in"
++ microsoft/garnet#2036          Fix out-of-bounds read in SCAN/HSCAN/SSCAN/ZSCAN when MATCH, COUNT or TYPE is the last token
++ microsoft/garnet#2037          Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? microsoft/garnet#2050  Validate argument count in SET-family string commands
-? microsoft/garnet#2040  Fix ZRANGESTORE aborting the RESP session on invalid range parameters
+? XTLS/REALITY#36        fix: DetectPostHandshakeRecordsLens background probe bugs (panic, leak, race)
 ? microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
-? pmd/pmd#6885           [java] Fix CloneMethodMustImplementCloneable false positive for local-var throw
+? DapperLib/Dapper#2217  Avoid double-enumerating IEnumerable<T> in AsTableValuedParameter
+? alecthomas/kong#630    Fix JSON resolver not finding camelCase keys nested in embedded structs
 ```
 <!-- OPEN:END -->
 
