@@ -64,9 +64,9 @@ currently:  [AI product infra, secure MCP tooling]
 <!-- OPEN:START -->
 ```diff
 ? XTLS/REALITY#36        fix: DetectPostHandshakeRecordsLens background probe bugs (panic, leak, race)
+? pmd/pmd#6885           [java] Fix #6693: CloneMethodMustImplementCloneable false positive for local-var throw
 ? microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
 ? DapperLib/Dapper#2217  Avoid double-enumerating IEnumerable<T> in AsTableValuedParameter
-? alecthomas/kong#630    Fix JSON resolver not finding camelCase keys nested in embedded structs
 ```
 <!-- OPEN:END -->
 
