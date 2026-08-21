@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ pmd/pmd#6884           [java] Fix #6651: UnnecessaryImport: False positive for array-typed Javadoc {@link} parameters
 + microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
 + microsoft/garnet#2040  Fix ZRANGESTORE aborting the RESP session on invalid range parameters
-+ microsoft/garnet#2050  Validate argument count in SET-family string commands
 ```
 <!-- MERGED:END -->
 
