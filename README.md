@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? alecthomas/kong#629  Validate flags/positionals before the commands/nodes that own them
-? alecthomas/kong#630  Fix JSON resolver not finding camelCase keys nested in embedded structs
-? XTLS/REALITY#36      fix: DetectPostHandshakeRecordsLens background probe bugs (panic, leak, race)
-? pmd/pmd#6885         [java] Fix #6693: CloneMethodMustImplementCloneable false positive for local-var throw
+? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
+? alecthomas/kong#629          Validate flags/positionals before the commands/nodes that own them
+? atuinsh/atuin#3646           fix(theme): fix low-contrast annotation color in default and autumn themes
+? microsoft/garnet#2094        Fix GETEX tearing down the session on an out-of-range expiry
 ```
 <!-- OPEN:END -->
 
