@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ pmd/pmd#6885           [java] Fix #6693: CloneMethodMustImplementCloneable false positive for local-var throw
-+ pmd/pmd#6884           [java] Fix #6651: UnnecessaryImport: False positive for array-typed Javadoc {@link} parameters
-+ microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
++ XTLS/REALITY#36  fix: DetectPostHandshakeRecordsLens background probe bugs (panic, leak, race)
++ pmd/pmd#6885     [java] Fix #6693: CloneMethodMustImplementCloneable false positive for local-var throw
++ pmd/pmd#6884     [java] Fix #6651: UnnecessaryImport: False positive for array-typed Javadoc {@link} parameters
 ```
 <!-- MERGED:END -->
 
