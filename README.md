@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
+? microsoft/garnet#2094        Fix GETEX tearing down the session on an out-of-range expiry
+? shiyu-coder/Kronos#382       fix: call .eval() on tokenizer and model in KronosPredictor
 ? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
 ? alecthomas/kong#629          Validate flags/positionals before the commands/nodes that own them
-? atuinsh/atuin#3646           fix(theme): fix low-contrast annotation color in default and autumn themes
-? microsoft/garnet#2094        Fix GETEX tearing down the session on an out-of-range expiry
 ```
 <!-- OPEN:END -->
 
