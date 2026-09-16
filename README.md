@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ microsoft/garnet#1937  Add PEM certificate support for TLS
 + microsoft/garnet#2094  Fix GETEX tearing down the session on an out-of-range expiry
 + XTLS/REALITY#36        fix: DetectPostHandshakeRecordsLens background probe bugs (panic, leak, race)
-+ pmd/pmd#6885           [java] Fix #6693: CloneMethodMustImplementCloneable false positive for local-var throw
 ```
 <!-- MERGED:END -->
 
