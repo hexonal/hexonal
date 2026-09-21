@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#1937  Add PEM certificate support for TLS
-+ microsoft/garnet#2094  Fix GETEX tearing down the session on an out-of-range expiry
-+ XTLS/REALITY#36        fix: DetectPostHandshakeRecordsLens background probe bugs (panic, leak, race)
++ microsoft/garnet#1969  Fix GETRANGE DivideByZeroException on empty-string value with negative start
++ microsoft/garnet#1968  Fix BITFIELD signed 64-bit overflow detection for OVERFLOW SAT/FAIL
++ microsoft/garnet#1946  Fix CI Test Summary silently dropping failed tests on trx filename collision
 ```
 <!-- MERGED:END -->
 
