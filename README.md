@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ microsoft/garnet#1949  Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
 + microsoft/garnet#1971  Fix one-byte out-of-bounds read in BITPOS with explicit end offset
 + microsoft/garnet#1947  Reject SETRANGE offsets that overflow max record size
-+ microsoft/garnet#1969  Fix GETRANGE DivideByZeroException on empty-string value with negative start
 ```
 <!-- MERGED:END -->
 
