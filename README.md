@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ microsoft/garnet#2010  Fix non-positive count on LMPOP and LPOP/RPOP
++ microsoft/garnet#2009  Fix LREM with count = int.MinValue killing the session
 + microsoft/garnet#2008  Fix BITCOUNT ... BIT throwing PlatformNotSupportedException on ARM64
-+ microsoft/garnet#1999  [V1] Backport #1949: Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
-+ microsoft/garnet#1949  Fix NetworkWriter.AsyncFlushPages hanging FlushEvent waiters on send failure
 ```
 <!-- MERGED:END -->
 
