@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#2010  Fix non-positive count on LMPOP and LPOP/RPOP
-+ microsoft/garnet#2009  Fix LREM with count = int.MinValue killing the session
-+ microsoft/garnet#2008  Fix BITCOUNT ... BIT throwing PlatformNotSupportedException on ARM64
++ microsoft/garnet#2031  Validate numkeys in SINTERCARD, ZINTERSTORE and LMPOP/BLMPOP
++ microsoft/garnet#2030  Fix BLMPOP writing a second reply when force-unblocked via CLIENT UNBLOCK
++ microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
 ```
 <!-- MERGED:END -->
 
