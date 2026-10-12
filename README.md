@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#2031  Validate numkeys in SINTERCARD, ZINTERSTORE and LMPOP/BLMPOP
-+ microsoft/garnet#2030  Fix BLMPOP writing a second reply when force-unblocked via CLIENT UNBLOCK
-+ microsoft/garnet#2029  Fix LRANGE returning the head element when stop is more negative than the list length
++ microsoft/garnet#2041  Reject multiple source keys in BITOP NOT
++ microsoft/garnet#2036  Fix out-of-bounds read in SCAN/HSCAN/SSCAN/ZSCAN when MATCH, COUNT or TYPE is the last token
++ microsoft/garnet#2037  Fix EXPIRE family double reply for incompatible options and session kill on braces in an option
 ```
 <!-- MERGED:END -->
 
