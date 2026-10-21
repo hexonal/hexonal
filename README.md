@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
-+ microsoft/garnet#2050  Validate argument count in SET-family string commands
-+ microsoft/garnet#2040  Fix ZRANGESTORE aborting the RESP session on invalid range parameters
-+ microsoft/garnet#2038  Cap HRANDFIELD/ZRANDMEMBER count before packing it into arg1
++ prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
++ microsoft/garnet#2050        Validate argument count in SET-family string commands
++ microsoft/garnet#2040        Fix ZRANGESTORE aborting the RESP session on invalid range parameters
 ```
 <!-- MERGED:END -->
 
@@ -63,10 +63,10 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- OPEN:START -->
 ```diff
-? shiyu-coder/Kronos#382       fix: call .eval() on tokenizer and model in KronosPredictor
-? prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
-? alecthomas/kong#629          Validate flags/positionals before the commands/nodes that own them
-? atuinsh/atuin#3646           fix(theme): fix low-contrast annotation color in default and autumn themes
+? shiyu-coder/Kronos#382  fix: call .eval() on tokenizer and model in KronosPredictor
+? alecthomas/kong#629     Validate flags/positionals before the commands/nodes that own them
+? atuinsh/atuin#3646      fix(theme): fix low-contrast annotation color in default and autumn themes
+? alecthomas/kong#630     Fix JSON resolver not finding camelCase keys nested in embedded structs
 ```
 <!-- OPEN:END -->
 
