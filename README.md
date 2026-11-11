@@ -53,9 +53,9 @@ currently:  [AI product infra, secure MCP tooling]
 
 <!-- MERGED:START -->
 ```diff
++ microsoft/garnet#2094        Fix GETEX tearing down the session on an out-of-range expiry
 + prometheus/prometheus#19241  cmd/prometheus: default external URL scheme to https when web.config.file enables TLS
 + microsoft/garnet#2050        Validate argument count in SET-family string commands
-+ microsoft/garnet#2040        Fix ZRANGESTORE aborting the RESP session on invalid range parameters
 ```
 <!-- MERGED:END -->
 
